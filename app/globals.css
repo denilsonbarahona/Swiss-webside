@@ -1,33 +1,399 @@
+@font-face {
+  font-family: "HvDTrial Pluto Cond Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Regular"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondRegular-BF6486959e6db70.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Regular"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-Regular-BF6486959e20f81.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Regular Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Regular Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondRegularItalic-BF6486959e518ff.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Regular Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Regular Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-RegularItalic-BF6486959e36eb3.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Thin"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondThin-BF6486959ea5491.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Thin"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-Thin-BF6486959e39509.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Thin Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondThinItalic-BF6486959ebdb2a.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Thin Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Thin Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-ThinItalic-BF6486959e74c85.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond ExtraLight"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondExtraLight-BF6486959ece922.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto ExtraLight"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-ExtraLight-BF6486959ebd8fc.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond ExtraLight Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond ExtraLight Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondExtraLightItalic-BF6486959ecb5e6.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto ExtraLight Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto ExtraLight Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-ExtraLightItalic-BF6486959ed2474.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Light"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondLight-BF6486959f03865.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Light"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-Light-BF6486959ecadac.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Light Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondLightItalic-BF6486959eec917.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Light Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-LightItalic-BF6486959dc36e6.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Medium"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondMedium-BF6486959ef15a3.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Medium"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-Medium-BF6486959ddd7bf.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Medium Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondMediumItalic-BF6486959ef1074.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Medium Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Medium Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-MediumItalic-BF6486959de83cf.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Bold"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-Bold-BF6486959ee6381.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Bold"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondBold-BF6486959ee76ac.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Bold Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-BoldItalic-BF6486959ef0732.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Bold Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondBoldItalic-BF6486959eed720.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Heavy"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondHeavy-BF6486959f00327.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Heavy"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-Heavy-BF6486959ebdea6.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Heavy Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Heavy Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondHeavyItalic-BF6486959eda609.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Heavy Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Heavy Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-HeavyItalic-BF6486959ed1c09.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Black"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-Black-BF6486959f01ef6.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Black"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondBlack-BF6486959ed9374.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Black Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-BlackItalic-BF6486959ee62b5.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HvDTrial Pluto Cond Black Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("HvDTrial Pluto Cond Black Italic"),
+    url("/fonts/hvdtrial-pluto-cufonfonts-webfont/HvDTrial_Pluto-CondBlackItalic-BF6486959f051fc.woff")
+      format("woff");
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
